@@ -1,0 +1,34 @@
+Jun 15 15:12:12.783 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 15:12:12.784 HYPERVISOR: Started on IP = localhost, TCP port = 56848.
+Jun 15 15:12:14.974 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 15:12:14.975 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 15 15:12:14.979 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips
+Jun 15 15:12:14.979 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips\7763e1c4-bcb5-4bb0-93ee-4ac5fbcc0a5f 
+Jun 15 15:12:14.980 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips\7763e1c4-bcb5-4bb0-93ee-4ac5fbcc0a5f
+Jun 15 15:12:14.980 HYPERVISOR: exec_cmd: vm create CENTRAL 1 c7200 
+Jun 15 15:12:14.982 VM: VM CENTRAL created.
+Jun 15 15:12:14.983 HYPERVISOR: exec_cmd: vm set_con_tcp_port CENTRAL 5000 
+Jun 15 15:12:14.983 HYPERVISOR: exec_cmd: c7200 get_mac_addr CENTRAL 
+Jun 15 15:12:14.983 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:14.984 HYPERVISOR: exec_cmd: vm slot_add_binding CENTRAL 0 0 C7200-IO-FE 
+Jun 15 15:12:14.985 HYPERVISOR: exec_cmd: vm set_disk0 CENTRAL 0 
+Jun 15 15:12:14.985 HYPERVISOR: exec_cmd: vm set_exec_area CENTRAL 64 
+Jun 15 15:12:14.986 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:14.986 HYPERVISOR: exec_cmd: vm set_idle_pc CENTRAL 0x608927c0 
+Jun 15 15:12:14.988 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 15 15:12:14.989 HYPERVISOR: exec_cmd: c7200 set_mac_addr CENTRAL ca01.062c.0000 
+Jun 15 15:12:14.990 HYPERVISOR: exec_cmd: vm set_nvram CENTRAL 512 
+Jun 15 15:12:14.991 HYPERVISOR: exec_cmd: vm set_ram CENTRAL 512 
+Jun 15 15:12:14.991 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:14.992 HYPERVISOR: exec_cmd: vm slot_add_binding CENTRAL 1 0 PA-FE-TX 
+Jun 15 15:12:14.992 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:14.993 HYPERVISOR: exec_cmd: vm slot_add_binding CENTRAL 2 0 PA-4T+ 
+Jun 15 15:12:23.819 HYPERVISOR: exec_cmd: nio create_udp udp-a4dc8260-9bfd-47a8-a379-af6ce9fa836e 10004 127.0.0.1 10005 
+Jun 15 15:12:24.180 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CENTRAL 2 0 udp-a4dc8260-9bfd-47a8-a379-af6ce9fa836e 
+Jun 15 15:12:24.181 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:24.396 HYPERVISOR: exec_cmd: nio create_udp udp-0e80d4ed-fa14-489c-946b-803a7570f309 10008 127.0.0.1 10009 
+Jun 15 15:12:24.433 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CENTRAL 2 1 udp-0e80d4ed-fa14-489c-946b-803a7570f309 
+Jun 15 15:12:24.434 HYPERVISOR: exec_cmd: vm get_status CENTRAL 
+Jun 15 15:12:28.009 HYPERVISOR: exec_cmd: nio create_udp udp-37508f1b-d186-4677-add8-aacc3d8d328d 10054 127.0.0.1 10055 
+Jun 15 15:12:28.017 HYPERVISOR: exec_cmd: vm slot_add_nio_binding CENTRAL 1 0 udp-37508f1b-d186-4677-add8-aacc3d8d328d 
+Jun 15 15:12:28.018 HYPERVISOR: exec_cmd: vm get_status CENTRAL 

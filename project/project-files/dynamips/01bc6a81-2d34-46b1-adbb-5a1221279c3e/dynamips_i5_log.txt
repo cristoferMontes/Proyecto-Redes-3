@@ -1,0 +1,33 @@
+Jun 09 17:16:06.137 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 09 17:16:06.138 HYPERVISOR: Started on IP = localhost, TCP port = 60818.
+Jun 09 17:16:06.600 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 09 17:16:06.600 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 09 17:16:06.601 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips
+Jun 09 17:16:06.601 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\01bc6a81-2d34-46b1-adbb-5a1221279c3e 
+Jun 09 17:16:06.604 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\01bc6a81-2d34-46b1-adbb-5a1221279c3e
+Jun 09 17:16:06.605 HYPERVISOR: exec_cmd: vm create ESW2 5 c3725 
+Jun 09 17:16:06.606 VM: VM ESW2 created.
+Jun 09 17:16:06.607 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW2 5004 
+Jun 09 17:16:06.607 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW2 
+Jun 09 17:16:06.608 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:16:06.609 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 09 17:16:06.609 HYPERVISOR: exec_cmd: vm set_idle_pc ESW2 0x60bf8ba0 
+Jun 09 17:16:06.610 HYPERVISOR: exec_cmd: vm set_exec_area ESW2 64 
+Jun 09 17:16:06.611 HYPERVISOR: exec_cmd: vm set_nvram ESW2 256 
+Jun 09 17:16:06.611 HYPERVISOR: exec_cmd: vm set_disk0 ESW2 1 
+Jun 09 17:16:06.612 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 09 17:16:06.612 HYPERVISOR: exec_cmd: vm slot_add_binding ESW2 1 0 NM-16ESW 
+Jun 09 17:16:06.707 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:16:17.555 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:16:29.384 HYPERVISOR: exec_cmd: nio create_udp udp-5f4f1bf7-083e-42a4-9efb-de0f85dd978b 10028 127.0.0.1 10029 
+Jun 09 17:16:29.645 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 0 0 udp-5f4f1bf7-083e-42a4-9efb-de0f85dd978b 
+Jun 09 17:16:29.646 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 09 17:16:33.287 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:16:34.503 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:17:44.445 HYPERVISOR: exec_cmd: nio create_udp udp-90b6d3f7-8ed8-4364-add6-e4c83c63e4fd 10038 127.0.0.1 10039 
+Jun 09 17:17:44.451 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW2 0 1 udp-90b6d3f7-8ed8-4364-add6-e4c83c63e4fd 
+Jun 09 17:17:44.452 HYPERVISOR: exec_cmd: vm get_status ESW2 
+Jun 09 17:19:48.243 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:29:43.552 HYPERVISOR: exec_cmd: vm set_ios ESW2 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 09 17:29:43.553 HYPERVISOR: exec_cmd: vm rename ESW2 EP1 
+Jun 09 17:29:43.685 HYPERVISOR: exec_cmd: vm set_ios EP1 C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 

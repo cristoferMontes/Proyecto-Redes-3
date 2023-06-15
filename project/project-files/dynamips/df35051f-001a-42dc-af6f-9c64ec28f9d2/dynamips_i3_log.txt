@@ -1,0 +1,43 @@
+Jun 09 17:14:31.977 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 09 17:14:31.978 HYPERVISOR: Started on IP = localhost, TCP port = 60728.
+Jun 09 17:14:32.449 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 09 17:14:32.449 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 09 17:14:32.450 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips
+Jun 09 17:14:32.450 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\df35051f-001a-42dc-af6f-9c64ec28f9d2 
+Jun 09 17:14:32.454 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\df35051f-001a-42dc-af6f-9c64ec28f9d2
+Jun 09 17:14:32.454 HYPERVISOR: exec_cmd: vm create R3 3 c7200 
+Jun 09 17:14:32.455 VM: VM R3 created.
+Jun 09 17:14:32.456 HYPERVISOR: exec_cmd: vm set_con_tcp_port R3 5002 
+Jun 09 17:14:32.457 HYPERVISOR: exec_cmd: c7200 get_mac_addr R3 
+Jun 09 17:14:32.457 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:14:32.457 HYPERVISOR: exec_cmd: vm slot_add_binding R3 0 0 C7200-IO-FE 
+Jun 09 17:14:32.458 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:32.459 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:14:32.459 HYPERVISOR: exec_cmd: vm set_idle_pc R3 0x608927c0 
+Jun 09 17:14:32.460 HYPERVISOR: exec_cmd: vm set_exec_area R3 64 
+Jun 09 17:14:32.460 HYPERVISOR: exec_cmd: vm set_ram R3 512 
+Jun 09 17:14:32.461 HYPERVISOR: exec_cmd: vm set_nvram R3 512 
+Jun 09 17:14:32.461 HYPERVISOR: exec_cmd: vm set_disk0 R3 0 
+Jun 09 17:14:32.463 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:14:32.463 HYPERVISOR: exec_cmd: vm slot_add_binding R3 1 0 PA-FE-TX 
+Jun 09 17:14:32.554 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:33.017 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:33.710 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:58.015 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:15:00.725 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:15:13.722 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:15:13.722 HYPERVISOR: exec_cmd: vm slot_add_binding R3 2 0 PA-4T+ 
+Jun 09 17:15:23.858 HYPERVISOR: exec_cmd: nio create_udp udp-15c05691-026b-4f27-8397-49b43c756b0e 10002 127.0.0.1 10003 
+Jun 09 17:15:24.352 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 0 udp-15c05691-026b-4f27-8397-49b43c756b0e 
+Jun 09 17:15:24.352 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:15:36.125 HYPERVISOR: exec_cmd: nio create_udp udp-acec6d13-868e-4c02-a02b-a210c33249a5 10016 127.0.0.1 10017 
+Jun 09 17:15:36.128 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 2 1 udp-acec6d13-868e-4c02-a02b-a210c33249a5 
+Jun 09 17:15:36.129 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:16:25.260 HYPERVISOR: exec_cmd: nio create_udp udp-373a786e-ba7e-4cf7-be3f-a9025f0a0c62 10020 127.0.0.1 10021 
+Jun 09 17:16:25.264 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 0 0 udp-373a786e-ba7e-4cf7-be3f-a9025f0a0c62 
+Jun 09 17:16:25.265 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:16:29.365 HYPERVISOR: exec_cmd: nio create_udp udp-fe0f1242-31d0-4016-9e58-900654a83028 10026 127.0.0.1 10027 
+Jun 09 17:16:29.369 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R3 1 0 udp-fe0f1242-31d0-4016-9e58-900654a83028 
+Jun 09 17:16:29.369 HYPERVISOR: exec_cmd: vm get_status R3 
+Jun 09 17:24:11.035 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:13.108 HYPERVISOR: exec_cmd: vm set_ios R3 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 

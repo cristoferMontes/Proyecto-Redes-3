@@ -1,0 +1,53 @@
+Jun 09 17:14:06.549 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 09 17:14:06.550 HYPERVISOR: Started on IP = localhost, TCP port = 60709.
+Jun 09 17:14:06.999 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 09 17:14:07.000 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 09 17:14:07.004 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips
+Jun 09 17:14:07.004 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\7763e1c4-bcb5-4bb0-93ee-4ac5fbcc0a5f 
+Jun 09 17:14:07.005 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto\Proyecto-Redes-3\project\project-files\dynamips\7763e1c4-bcb5-4bb0-93ee-4ac5fbcc0a5f
+Jun 09 17:14:07.005 HYPERVISOR: exec_cmd: vm create R1 1 c7200 
+Jun 09 17:14:07.006 VM: VM R1 created.
+Jun 09 17:14:07.007 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Jun 09 17:14:07.007 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Jun 09 17:14:07.008 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:14:07.008 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Jun 09 17:14:07.010 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:07.010 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:14:07.011 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x608927c0 
+Jun 09 17:14:07.012 HYPERVISOR: exec_cmd: vm set_exec_area R1 64 
+Jun 09 17:14:07.012 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Jun 09 17:14:07.013 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Jun 09 17:14:07.014 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jun 09 17:14:07.015 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:14:07.015 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-FE-TX 
+Jun 09 17:14:07.111 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:08.179 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:34.804 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:39.695 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:42.095 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:14:59.579 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:15:08.595 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:15:08.596 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-4T+ 
+Jun 09 17:15:24.363 HYPERVISOR: exec_cmd: nio create_udp udp-e2be124b-e36e-4baa-ba5c-a930839319bb 10004 127.0.0.1 10005 
+Jun 09 17:15:24.634 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-e2be124b-e36e-4baa-ba5c-a930839319bb 
+Jun 09 17:15:24.635 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:15:32.184 HYPERVISOR: exec_cmd: nio create_udp udp-f3508e86-72de-49a7-ba37-bfee711bae47 10008 127.0.0.1 10009 
+Jun 09 17:15:32.191 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 1 udp-f3508e86-72de-49a7-ba37-bfee711bae47 
+Jun 09 17:15:32.192 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:19:28.800 HYPERVISOR: exec_cmd: nio create_udp udp-cb30f6f3-0487-4131-a590-a5146d207179 10058 127.0.0.1 10059 
+Jun 09 17:19:28.804 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-cb30f6f3-0487-4131-a590-a5146d207179 
+Jun 09 17:19:28.805 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:20:44.359 HYPERVISOR: exec_cmd: nio create_udp udp-014165ef-0629-4355-8fa9-c6750e7b4195 10062 127.0.0.1 10063 
+Jun 09 17:20:44.362 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-014165ef-0629-4355-8fa9-c6750e7b4195 
+Jun 09 17:20:44.363 HYPERVISOR: exec_cmd: vm get_status R1 
+Jun 09 17:24:17.624 HYPERVISOR: exec_cmd: vm set_ios R1 C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:17.624 HYPERVISOR: exec_cmd: vm rename R1 CENTRAL 
+Jun 09 17:24:17.729 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:19.182 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:20.725 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:22.424 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:24.310 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:24.508 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:24.617 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:26.416 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 
+Jun 09 17:24:28.377 HYPERVISOR: exec_cmd: vm set_ios CENTRAL C:/Users/Diego Oloarte/GNS3/images/IOS/c7200-a3jk9s-mz.124-25g.image 

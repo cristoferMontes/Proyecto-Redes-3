@@ -1,0 +1,29 @@
+Jun 15 15:12:17.640 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 15:12:17.642 HYPERVISOR: Started on IP = localhost, TCP port = 56864.
+Jun 15 15:12:18.066 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 15:12:18.067 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 15 15:12:18.068 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips
+Jun 15 15:12:18.068 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips\450d6c0b-27c8-427b-9e74-acc5ca17d739 
+Jun 15 15:12:18.069 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips\450d6c0b-27c8-427b-9e74-acc5ca17d739
+Jun 15 15:12:18.069 HYPERVISOR: exec_cmd: vm create RHF 4 c3725 
+Jun 15 15:12:18.071 VM: VM RHF created.
+Jun 15 15:12:18.072 HYPERVISOR: exec_cmd: vm set_con_tcp_port RHF 5003 
+Jun 15 15:12:18.072 HYPERVISOR: exec_cmd: c3725 get_mac_addr RHF 
+Jun 15 15:12:18.073 HYPERVISOR: exec_cmd: vm set_disk0 RHF 1 
+Jun 15 15:12:18.073 HYPERVISOR: exec_cmd: vm set_exec_area RHF 64 
+Jun 15 15:12:18.074 HYPERVISOR: exec_cmd: vm get_status RHF 
+Jun 15 15:12:18.074 HYPERVISOR: exec_cmd: vm set_idle_pc RHF 0x60bf8ba0 
+Jun 15 15:12:18.077 HYPERVISOR: exec_cmd: vm set_ios RHF C:/Users/Diego Oloarte/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Jun 15 15:12:18.077 HYPERVISOR: exec_cmd: c3725 set_mac_addr RHF c204.3a6c.0000 
+Jun 15 15:12:18.078 HYPERVISOR: exec_cmd: vm set_nvram RHF 256 
+Jun 15 15:12:18.079 HYPERVISOR: exec_cmd: vm get_status RHF 
+Jun 15 15:12:18.079 HYPERVISOR: exec_cmd: vm slot_add_binding RHF 1 0 NM-16ESW 
+Jun 15 15:12:25.152 HYPERVISOR: exec_cmd: nio create_udp udp-382f46a8-99a0-4185-8a8c-b9282c02b1fe 10022 127.0.0.1 10023 
+Jun 15 15:12:25.591 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RHF 0 0 udp-382f46a8-99a0-4185-8a8c-b9282c02b1fe 
+Jun 15 15:12:25.592 HYPERVISOR: exec_cmd: vm get_status RHF 
+Jun 15 15:12:27.191 HYPERVISOR: exec_cmd: nio create_udp udp-64c2c445-9b55-4bcd-92bf-a45400d50289 10042 127.0.0.1 10043 
+Jun 15 15:12:27.303 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RHF 0 1 udp-64c2c445-9b55-4bcd-92bf-a45400d50289 
+Jun 15 15:12:27.304 HYPERVISOR: exec_cmd: vm get_status RHF 
+Jun 15 15:12:28.927 HYPERVISOR: exec_cmd: nio create_udp udp-b8786e36-2ae4-4c8e-8e3f-988555539c07 10064 127.0.0.1 10065 
+Jun 15 15:12:28.930 HYPERVISOR: exec_cmd: vm slot_add_nio_binding RHF 1 0 udp-b8786e36-2ae4-4c8e-8e3f-988555539c07 
+Jun 15 15:12:28.931 HYPERVISOR: exec_cmd: vm get_status RHF 

@@ -1,0 +1,9 @@
+Jun 15 15:12:19.865 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 15:12:19.866 HYPERVISOR: Started on IP = localhost, TCP port = 56876.
+Jun 15 15:12:20.405 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 15:12:20.406 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 15 15:12:20.407 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips
+Jun 15 15:12:20.407 HYPERVISOR: exec_cmd: ethsw create Servicios 
+Jun 15 15:12:27.804 HYPERVISOR: exec_cmd: nio create_udp udp-f3e1957b-970a-4e10-96e2-9c273fb18bd1 10048 127.0.0.1 10049 
+Jun 15 15:12:27.806 HYPERVISOR: exec_cmd: ethsw add_nio Servicios udp-f3e1957b-970a-4e10-96e2-9c273fb18bd1 
+Jun 15 15:12:27.830 HYPERVISOR: exec_cmd: ethsw set_access_port Servicios udp-f3e1957b-970a-4e10-96e2-9c273fb18bd1 1 

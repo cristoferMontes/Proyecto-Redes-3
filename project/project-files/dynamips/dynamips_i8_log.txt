@@ -1,0 +1,12 @@
+Jun 15 15:12:20.597 HYPERVISOR: Release 0.2.17-x86/Windows (tag 2017072410)
+Jun 15 15:12:20.599 HYPERVISOR: Started on IP = localhost, TCP port = 56880.
+Jun 15 15:12:21.066 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 15 15:12:21.067 HYPERVISOR: exec_cmd: hypervisor working_dir E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips 
+Jun 15 15:12:21.067 GENERAL: working_dir=E:\OneDrive - Instituto Politecnico Nacional\ESCOM\7MO SEMESTRE\Administración de Servicios en Red\Proyecto-Redes-3\project\project-files\dynamips
+Jun 15 15:12:21.068 HYPERVISOR: exec_cmd: ethsw create Admin 
+Jun 15 15:12:28.036 HYPERVISOR: exec_cmd: nio create_udp udp-dbb4a9f6-080c-4cd3-97f1-358bbaef6491 10053 127.0.0.1 10052 
+Jun 15 15:12:28.037 HYPERVISOR: exec_cmd: ethsw add_nio Admin udp-dbb4a9f6-080c-4cd3-97f1-358bbaef6491 
+Jun 15 15:12:28.052 HYPERVISOR: exec_cmd: ethsw set_access_port Admin udp-dbb4a9f6-080c-4cd3-97f1-358bbaef6491 1 
+Jun 15 15:12:28.274 HYPERVISOR: exec_cmd: nio create_udp udp-ae9971e1-e762-4dea-9029-f174bc5f3bab 10057 127.0.0.1 10056 
+Jun 15 15:12:28.275 HYPERVISOR: exec_cmd: ethsw add_nio Admin udp-ae9971e1-e762-4dea-9029-f174bc5f3bab 
+Jun 15 15:12:28.486 HYPERVISOR: exec_cmd: ethsw set_access_port Admin udp-ae9971e1-e762-4dea-9029-f174bc5f3bab 1 
